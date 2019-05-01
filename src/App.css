@@ -1,0 +1,31 @@
+body {
+  background-image: url("https://ihot-wallpapers.net/wp-content/uploads/2018/03/hd-wallpaper-space-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+
+.container-billboard {
+  opacity: 0.85;
+}
+
+.container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.jumbotron-billboard {
+  margin-bottom: 0px;
+  opacity: 0.85;
+  color: #fff;
+}
+
+.intro-card {
+  margin-bottom: 0px;
+  opacity: 0.85;
+  color: #fff;
+}
