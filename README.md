@@ -11,7 +11,7 @@ In this game, user can **register** and **log** in and create customized persona
 <img src="https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game/blob/master/result/modeChoose.png" width=30% height=30%>&nbsp;&emsp;&emsp;
 <img src="https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game/blob/master/result/huntBegin.png" width=30% height=30%>&nbsp;&emsp;&emsp;
 <img src="https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game/blob/master/result/huntOn.png" width=30% height=30%>&nbsp;&emsp;&emsp;
-**Hunt**: user plays himself and try to hunt as many points as possible in one minutes by getting fuels and shooting asteroids.   
+**Hunt**: user plays himself and try to hunt as many points as possible in one minutes by getting fuels and shooting asteroids through basic keyboard control.    
 <img src="https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game/blob/master/result/waitingRoom.png" width=30% height=30%>&nbsp;&emsp;&emsp;
 <img src="https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game/blob/master/result/battleOn.png" width=30% height=30%>&nbsp;&emsp;&emsp;
 <img src="https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game/blob/master/result/battleEnd.png" width=30% height=30%>&nbsp;&emsp;&emsp;
@@ -21,8 +21,8 @@ In this game, user can **register** and **log** in and create customized persona
 git clone https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game  
 cd Online-Spaceship-Battle-and-Hunting-Game/  
 ```
-Build your own firebase (firestore option) instance and configure firebase apikey in store.js as [firebase config setup](https://firebase.google.com/docs/web/setup) instructed.  
-Be sure to add a "waitingRoom" coolection with one document of boolean field "gameIsOn", string field "id1", "id2", "player1" and "player2".  
+Build your own firebase (**Cloud Firestore** option) instance and configure firebase apikey in store.js as [firebase config setup](https://firebase.google.com/docs/web/setup) instructed.  
+Be sure to add a **waitingRoom** collection with one document of boolean field **gameIsOn**, string field **id1**, **id2**, **player1** and **player2**.  
 ```
 npm install  
 npm start
