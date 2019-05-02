@@ -21,16 +21,18 @@ In this game, user can **register** and **log** in and create customized persona
 git clone https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game  
 cd Online-Spaceship-Battle-and-Hunting-Game/  
 ```
-Configure firebase apikey in store.js as [firebase config setup](https://firebase.google.com/docs/web/setup) instructed
+Build your own firebase (firestore option) instance and configure firebase apikey in store.js as [firebase config setup](https://firebase.google.com/docs/web/setup) instructed.  
+Be sure to add a "waitingRoom" coolection with one document of boolean field "gameIsOn", string field "id1", "id2", "player1" and "player2".  
 ```
 npm install  
 npm start
 ```  
 Open another terminal to launch websocket server  
 ```
-cd cd Online-Spaceship-Battle-and-Hunting-Game/src/websocket/  
+cd Online-Spaceship-Battle-and-Hunting-Game/src/websocket/  
 node server.js
 ```  
+And enjoy!  
 ## Contributors
 [Zi Li](https://github.com/ziliHarvey) &emsp;&emsp; [Tianyi Xie](https://github.com/tinamyosotis)  
 ## Reference  
