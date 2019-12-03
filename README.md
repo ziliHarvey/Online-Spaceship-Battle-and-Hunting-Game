@@ -1,8 +1,5 @@
 # Spaceship Battle and Hunting!  
 A fun multiplayer browser-based online spaceship-themed game using [React](https://github.com/facebook/react) as frontend, [Node.js](https://github.com/nodejs/node) as backend, [Firebase](https://firebase.google.com) as cloud database and [SockJS](http://sockjs.org) for realtime communication. We also used [redux-firestore](https://github.com/prescottprue/redux-firestore) for accessing data easily.     
-## Live demo  
- :point_right: https://asteroidandspaceshipgame.tk  
-(:tada: Enjoy **hunt** mode, :disappointed: **battle** mode isn't yet deployed but can be run locally)  
 ## Features  
 <img src="https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game/blob/master/result/register.png" width=30% height=30%>&nbsp;&emsp;
 <img src="https://github.com/ziliHarvey/Online-Spaceship-Battle-and-Hunting-Game/blob/master/result/login.png" width=30% height=30%>&nbsp;&emsp;
