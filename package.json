@@ -15,7 +15,7 @@
     "redux": "^4.0.1",
     "redux-auth-wrapper": "^2.1.0",
     "redux-firestore": "^0.7.3",
-    "sockjs": "^0.3.19",
+    "sockjs": "^0.3.20",
     "ws": "^6.2.1"
   },
   "scripts": {
